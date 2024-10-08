@@ -23,13 +23,14 @@ frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 //4. Size the frame.
-frame.pack();
+frame.setSize(400, 400); // Set size directly on the frame
+
+// Maximize AFTER setting size
+frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
 frame.setLocationRelativeTo(null);
-
 //5. Show it.
 frame.setVisible(true);
-frame.getContentPane().setSize(400, 400);
 	} 
 
 
