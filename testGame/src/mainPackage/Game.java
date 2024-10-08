@@ -30,8 +30,9 @@ frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
 frame.setLocationRelativeTo(null);
 //5. Show it.
+frame.setAlwaysOnTop(true);
 frame.setVisible(true);
-	} 
+	}
 
 
 }
